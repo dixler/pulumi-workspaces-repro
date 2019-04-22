@@ -1,3 +1,7 @@
+# Issue
+
+See https://github.com/pulumi/pulumi/issues/2661
+
 # Init
 
 ```bash
