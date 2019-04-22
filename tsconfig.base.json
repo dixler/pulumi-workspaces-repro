@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strict": true,
+    "target": "ES2018",
+    "lib": ["es2018"],
+    "types": ["node"],
+    "incremental": true,
+  },
+}

@@ -1,0 +1,10 @@
+{
+  "name": "example-local",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.ts.d",
+  "dependencies": {
+    "example-core": "link:../core"
+  }
+}

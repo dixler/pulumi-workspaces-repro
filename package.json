@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "private": true,
+  "scripts": {
+    "compile": "tsc -b",
+    "clean": "rm -rf tsconfig.tsbuildinfo packages/*/dist",
+    "server": "ts-node-dev --respawn --no-notify packages/local/index.ts"
+  },
+  "devDependencies": {
+    "@pulumi/aws": "0.18.0",
+    "@pulumi/pulumi": "0.17.4",
+    "@types/node": "11.13.0",
+    "ts-node-dev": "1.0.0-pre.32",
+    "typescript": "3.4.1"
+  },
+  "workspaces": ["packages/*"]
+}
